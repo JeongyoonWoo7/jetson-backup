@@ -1,0 +1,7 @@
+jetson@nano:~$ ifconfig | grep inet
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        inet 223.194.43.127  netmask 255.255.255.0  broadcast 223.194.43.255
+        inet6 fe80::3de1:ddfc:2156:2b93  prefixlen 64  scopeid 0x20<link>
+jetson@nano:~$ 

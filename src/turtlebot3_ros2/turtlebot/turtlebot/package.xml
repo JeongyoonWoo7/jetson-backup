@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>turtlebot</name>
+  <version>0.0.0</version>
+  <description>turtlebot control node</description>
+  <maintainer email="geonhu@todo.todo">geonhu</maintainer>
+  <license>TODO: License declaration</license>
+
+  <!-- 빌드 도구 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- 빌드/런타임에 둘 다 필요한 의존성 -->
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>custom_interfaces</depend>
+
+
+  <!-- 테스트 (있으면) -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

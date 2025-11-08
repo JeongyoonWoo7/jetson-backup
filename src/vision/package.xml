@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>vision</name>
+  <version>0.0.0</version>
+  <description>Vision node for lane detection and publishing LaneInfo messages</description>
+
+  <maintainer email="mikissm06@gmail.com">ssm</maintainer>
+  <license>MIT</license>
+
+  <!-- build tool -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- dependencies -->
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>vision_msgs</depend> <!-- ✅ 추가됨 -->
+
+  <!-- for GUI (Qt) -->
+  <depend>qtbase5-dev</depend>
+
+  <!-- test dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
