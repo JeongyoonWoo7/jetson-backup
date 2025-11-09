@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "array": "cpp",
+        "bitset": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp"
+    },
+    "cmake.sourceDirectory": "/home/jetson/ros2_ws/src/auto_driving_node"
+}
