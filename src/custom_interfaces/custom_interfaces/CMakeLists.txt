@@ -7,9 +7,9 @@ find_package(std_msgs REQUIRED)
 
 # 여기 있는 msg 들로 C++/Python 인터페이스를 생성해라
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Colcon.msg"
+  
   "msg/PacketProtocol.msg"
-  "msg/RobotArm.msg"
+  
   DEPENDENCIES std_msgs
 )
 
